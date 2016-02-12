@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MapIT Sencemeter Service</string>
+    <string name="device_command">net.speleomaniac.mapit.sencemeterservice.COMMAND</string>
+    <string name="device_data">net.speleomaniac.mapit.DATA</string>
+    <string name="scan_devices">Scan devices</string>
+    <string name="name_label">Name</string>
+    <string name="address_label">Address</string>
+    <string name="service_starting">Service is starting</string>
+    <string name="no_device_address">none</string>
+    <string name="num_messages_received">Messages received: </string>
+    <string name="adapter_not_found">Bluetooth adapter not found</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="stop_service">OFF</string>
+    <string name="start_service">ON</string>
+    <string name="unknown_device_name">Unknown</string>
+    <string name="bluetooth_is_disabled">Bluetooth is disabled</string>
+    <string name="bluetooth_is_enabled">Bluetooth is enabled</string>
+    <string name="device_is_connected">Device is connected</string>
+    <string name="device_is_disconnected">Device is disconnected</string>
+    <string name="device_calibration_title">Device Calibration</string>
+    <string name="orientation_test_title">Orientation Test</string>
+    <string name="device_selection_title">Device Selection</string>
+    <string name="service_status_title">Service Status</string>
+    <string name="select_device_title">Select Device</string>
+    <string name="calibration_title">Sensor Calibration</string>
+    <string name="cali_accel_title">Calibrate Accelerometer</string>
+    <string name="cali_gyro_title">Calibrate Gyrometer</string>
+    <string name="cali_mag_title">Calibrate Magnetometer</string>
+    <string name="cali_baro_title">Calibrate Barometer</string>
+    <string name="test_orientation_title">Test Orientation</string>
+    <string name="connect_disconnect_title">Connect / Disconnect</string>
+    <string name="incoming_message_title">Incoming Message</string>
+    <string name="heartbeat_title">Heartbeat</string>
+    <string name="startup_complete_title">Device Restart</string>
+    <string name="calibration_end_title">Streaming Data End</string>
+    <string name="tests_title">Tests</string>
+    <string name="dummy_shot_title">Dummy Shot</string>
+    <string name="dummy_shot_description">Send a dummy shot for testing</string>
+    <string name="request_shot_title">Request Shot</string>
+    <string name="request_shot_description">Request a single shot from device</string>
+    <string name="unknown_string">Unknown</string>
+    <string name="general_title">General</string>
+    <string name="miscellaneous_title">Miscellaneous</string>
+    <string name="sounds_title">Sounds</string>
+    <string name="accel_calibrate_title">Accelerometer Calibration</string>
+    <string name="mag_calibrate_title">Magnetometer Calibration</string>
+    <string name="gyro_calibrate_title">Gyrometer Calibration</string>
+    <string name="baro_calibrate_title">Barometer Calibration</string>
+    <string name="alignment_title">Board Alignment</string>
+    <string name="test_orientation_summary">Test calibration data</string>
+    <string name="reboot_title">Reboot Device</string>
+    <string name="request_continous_title">Continuous Test</string>
+    <string name="request_continous_summary">Request shots until canceled</string>
+
+</resources>

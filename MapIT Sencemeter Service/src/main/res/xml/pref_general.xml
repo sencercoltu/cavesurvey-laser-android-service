@@ -1,0 +1,82 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general_title">
+        <SwitchPreference
+            android:key="prefs_enable_service"
+            android:title="@string/service_status_title"/>
+
+        <Preference
+            android:key="prefs_select_device"
+            android:title="@string/select_device_title"
+            android:summary="@string/unknown_string"
+            />
+
+        <PreferenceScreen android:title="@string/calibration_title"
+            android:key="prefs_calibrations"
+            >
+            <Preference
+                android:key="prefs_calibrate_accel"
+                android:title="@string/cali_accel_title"/>
+            <Preference
+                android:key="prefs_calibrate_gyro"
+                android:title="@string/cali_gyro_title"/>
+            <Preference
+                android:key="prefs_calibrate_mag"
+                android:title="@string/cali_mag_title"/>
+            <Preference
+                android:key="prefs_calibrate_baro"
+                android:title="@string/cali_baro_title"/>
+            <Preference
+                android:key="prefs_calibrate_reset"
+                android:title="Reset"
+                android:summary="Reset calibration data to factory defaults"/>
+        </PreferenceScreen>
+
+        <Preference
+            android:key="prefs_alignment"
+            android:title="@string/alignment_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/miscellaneous_title">
+        <PreferenceScreen android:title="@string/sounds_title">
+            <SwitchPreference
+                android:key="prefs_beep_on_connectevent"
+                android:title="@string/connect_disconnect_title"
+                android:defaultValue="true"/>
+            <SwitchPreference
+                android:key="prefs_beep_on_message"
+                android:title="@string/incoming_message_title"
+                android:defaultValue="false"/>
+            <SwitchPreference
+                android:key="prefs_beep_on_heartbeat"
+                android:title="@string/heartbeat_title"
+                android:defaultValue="false"/>
+            <SwitchPreference
+                android:key="prefs_beep_on_startup"
+                android:title="@string/startup_complete_title"
+                android:defaultValue="true"/>
+            <SwitchPreference
+                android:key="prefs_beep_on_endcalib"
+                android:title="@string/calibration_end_title"
+                android:defaultValue="true"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tests_title">
+            <Preference
+                android:key="prefs_test"
+                android:title="@string/dummy_shot_title"
+                android:summary="@string/dummy_shot_description" />
+            <Preference
+                android:key="prefs_readsingle"
+                android:title="@string/request_shot_title"
+                android:summary="@string/request_shot_description" />
+            <SwitchPreference
+                android:key="prefs_continous"
+                android:title="@string/request_continous_title"
+                android:summary="@string/request_continous_summary" />
+            <Preference
+                android:key="prefs_reboot"
+                android:title="@string/reboot_title" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

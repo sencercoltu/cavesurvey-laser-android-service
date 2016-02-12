@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_window"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Put device to a station place. Press the corresponding button after averaging completed.
+        " />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="X-Axis"
+            android:gravity="start"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/gyro_curr_x"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_weight="1"/>
+        <ToggleButton
+            android:id="@+id/gyro_avg_x"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:textOff="0"
+            android:textOn="0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Y-Axis"
+            android:gravity="start"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/gyro_curr_y"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_weight="1"/>
+        <ToggleButton
+            android:id="@+id/gyro_avg_y"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:textOff="0"
+            android:textOn="0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Z-Axis"
+            android:gravity="start"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/gyro_curr_z"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_weight="1"/>
+        <ToggleButton
+            android:id="@+id/gyro_avg_z"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:textOff="0"
+            android:textOn="0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+After finding average values, press 'Save To Device' button
+            "/>
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset All" />
+        <Button
+            android:id="@+id/reload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reload From Device" />
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save To Device" />
+
+        </LinearLayout>
+</LinearLayout>
